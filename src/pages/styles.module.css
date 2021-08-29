@@ -1,0 +1,18 @@
+.image__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.image__container > div {
+  position: unset !important;
+  padding: 1rem;
+}
+
+.image {
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
+}

@@ -1,0 +1,29 @@
+.odgovor {
+  @apply font-EL;
+  margin-top: 25px;
+  padding: 0 80px 0 60px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  position: relative;
+  color: #26282c;
+  white-space: pre-line;
+  overflow: hidden;
+  max-height: 0;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.odgovor::before {
+  content: '';
+  top: 12px;
+  left: 0;
+  height: 1px;
+  width: 20px;
+  background: #414141;
+  position: absolute;
+}
+
+.odgovor.show {
+  height: auto;
+  max-height: 9999px;
+  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}

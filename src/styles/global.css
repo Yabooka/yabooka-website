@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&display=swap');
+
+@font-face {
+  font-family: 'EuclidLight';
+  src: url('/fonts/EuclidSquare-Light.woff') format('woff');
+  src: url('/fonts/EuclidSquare-Light.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EuclidMedium';
+  src: url('/fonts/EuclidSquare-Medium.woff') format('woff');
+  src: url('/fonts/EuclidSquare-Medium.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EuclidSemibold';
+  src: url('/fonts/EuclidSquare-Semibold.woff') format('woff');
+  src: url('/fonts/EuclidSquare-Semibold.ttf') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EuclidBold';
+  src: url('/fonts/EuclidSquare-Bold.woff') format('woff');
+  src: url('/fonts/EuclidSquare-Bold.ttf') format('truetype');
+  font-style: normal;
+}
+
+body {
+  font-family: 'EuclidLight', sans-serif;
+  font-size: 1rem;
+}
+
+main {
+  padding-top: 100px;
+}
