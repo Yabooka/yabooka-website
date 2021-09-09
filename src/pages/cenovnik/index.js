@@ -11,7 +11,12 @@ import { exit } from 'pages/animations'
 
 export default function Cenovnik() {
   return (
-    <motion.div exit={exit} initial='initial' animate='animate'>
+    <motion.div
+      exit={exit}
+      initial='initial'
+      animate='animate'
+      className='md:pt-20'
+    >
       <Page title='Yabooka | Cenovnik' description='Cenovnik nasih usluga.'>
         <motion.h1
           variants={fadeInDown}

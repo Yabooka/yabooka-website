@@ -1,37 +1,29 @@
-import Page from '@/components/Page'
-import Image from 'next/image'
+import Page from '@/components/page'
+import ReactFullpage from '@fullpage/react-fullpage'
+import Intro from '@/sections/intro'
+import PosebneUsluge from '@/sections/posebneusluge'
+import Informacije from '@/sections/informacije'
 
-import styles from './styles.module.css'
+const anchors = ['intro', 'posebne-usluge', 'važne-informacije']
 
-export default function Home() {
-  return (
-    <Page
-      title='Yabooka | Home'
-      description='Servis Apple uredjaja - iPhone, iPad, MacBook, Samsung, Huawei, Acer, Asus, HP...'
-    >
-      <h1 className='text-center text-7xl max-w-4xl mx-auto font-EB mb-20'>
-        Servis mobilnih uređaja svih vodećih brendova
-      </h1>
-      <div className={styles.image__container}>
-        <Image
-          src={'/logos/apple.png'}
-          layout='fill'
-          className={styles.image}
-        />
-        <Image src={'/logos/acer.png'} layout='fill' className={styles.image} />
-        <Image src={'/logos/asus.png'} layout='fill' className={styles.image} />
-        <Image src={'/logos/hp.png'} layout='fill' className={styles.image} />
-        <Image
-          src={'/logos/samsung.png'}
-          layout='fill'
-          className={styles.image}
-        />
-        <Image
-          src={'/logos/huawei.png'}
-          layout='fill'
-          className={styles.image}
-        />
-      </div>
-    </Page>
-  )
-}
+const Home = () => (
+  <ReactFullpage
+    anchors={anchors}
+    navigation
+    navigationTooltips={anchors}
+    render={({ state, fullpageApi }) => {
+      return (
+        <Page
+          title='Yabooka | Home'
+          description='Servis Apple uredjaja Niš, servis android uređaja Niš, zamena baterija macbook Niš, zamena baterija iphone Niš, zamena ekrana macbook, zamena ekrana iphone'
+        >
+          <Intro />
+          <PosebneUsluge />
+          <Informacije />
+        </Page>
+      )
+    }}
+  />
+)
+
+export default Home

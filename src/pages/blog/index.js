@@ -9,7 +9,7 @@ export default function BlogPage({ postovi }) {
       title='Yabooka | Blog'
       description='Saznajte vise o problemima koji se javljaju kod mobilnih telefona.'
     >
-      <ul className='grid grid-cols-2 gap-20'>
+      <ul className='grid gap-10 md:grid-cols-2 md:gap-20'>
         {postovi.map((post, index) => (
           <li
             key={index}

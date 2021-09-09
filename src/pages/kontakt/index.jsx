@@ -63,21 +63,26 @@ export default function Kontakt() {
             </div>
           </div>
 
-          <div className='flex items-center justify-between mt-10'>
-            <Link href='#'>
-              <Button>Facebook</Button>
+          <div className='flex items-center mt-10 mr-5'>
+            <Link href='https://facebook.com/yabooka.rs'>
+              <a target='_blank' className='mr-5'>
+                <Button>Facebook</Button>
+              </a>
             </Link>
-            <Link href='#'>
-              <Button>Instagram</Button>
+            <Link href='https://www.instagram.com/yabooka.rs/'>
+              <a target='_blank' className='mr-5'>
+                <Button>Instagram</Button>
+              </a>
             </Link>
-            <Link href='#'>
-              <Button>Telegram</Button>
+            <Link href='https://t.me/appleservisnis'>
+              <a target='_blank' className='mr-5'>
+                <Button>Telegram</Button>
+              </a>
             </Link>
-            <Link href='#'>
-              <Button>Viber</Button>
-            </Link>
-            <Link href='mailto:yabooka.rs@gmail.com'>
-              <Button>Email</Button>
+            <Link href='https://invite.viber.com/?g2=AQALwmIxg%2F3E40v3cgVQiMytDg28mnblb1vmTA5w3mNRcbjpwlEEO9u9YnXSYRhN'>
+              <a target='_blank' className='mr-5'>
+                <Button>Viber</Button>
+              </a>
             </Link>
           </div>
           <div className='text-md w-full max-w-1/2 text-center mt-10'>
