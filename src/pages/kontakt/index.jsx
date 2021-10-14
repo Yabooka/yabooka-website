@@ -9,7 +9,7 @@ export default function Kontakt() {
       title='Yabooka | Kontakt'
       description='Kontaktirajte nas i saznajte sve što vas zanima.'
     >
-      <div className='md:pl-32 md:pr-32 py-10'>
+      <div className='py-10'>
         <div className='flex relative h-2 tracking-letter text-mini'>
           <div className='w-4 md:w-8 h-px bg-black left-0 top-1/2 absolute'></div>
           <div className='relative pl-8 md:pl-12 uppercase'>kontakt</div>

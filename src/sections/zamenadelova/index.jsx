@@ -5,7 +5,7 @@ import Line from '@/components/line'
 
 export default function ZamenaDelova() {
   return (
-    <div className='section'>
+    <div className='flex items-center justify-center h-96 mb-20'>
       <div className='flex flex-col gap-y-10 md:flex-row md:gap-x-10 md:justify-between'>
         {/* leva strana */}
         <div className='relative md:w-1/2'>

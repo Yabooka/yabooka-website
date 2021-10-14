@@ -1,11 +1,11 @@
 import Link from 'next/link'
 import Button from '@/components/button'
-import CustomImage from '@/components/image'
+import Image from '@/components/image'
 import Line from '@/components/line'
 
 export default function Intro() {
   return (
-    <div className='section'>
+    <div className='flex items-center justify-center h-screen'>
       <div className='flex flex-col items-center gap-y-10 md:flex-row md:gap-x-20 md:justify-between'>
         {/* leva strana */}
         <div className='md:w-1/2'>
@@ -31,7 +31,7 @@ export default function Intro() {
         </div>
         {/* desna strana */}
         <div className='relative h-96 md:w-1/2'>
-          <CustomImage
+          <Image
             src={'/images/imac.png'}
             layout='fill'
             objectPosition='right'

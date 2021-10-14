@@ -2,7 +2,7 @@ import Line from '@/components/line'
 
 export default function PosebneUsluge() {
   return (
-    <div className='section'>
+    <div className='flex items-center justify-center h-96 pb-20'>
       <div className='flex flex-col gap-y-10 md:flex-row md:gap-x-20 md:justify-between'>
         <div className='md:w-full'>
           <Line title='posebne usluge' />

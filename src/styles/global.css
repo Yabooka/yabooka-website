@@ -55,3 +55,7 @@ body {
   font-size: 0.7rem;
   letter-spacing: 2.5;
 }
+
+.section {
+  height: 100wh;
+}
