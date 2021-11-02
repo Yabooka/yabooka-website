@@ -16,11 +16,11 @@ export const links = [
     url: '/cesta-pitanja',
     text: 'Česta pitanja',
   },
-  {
-    id: 4,
-    url: '/blog',
-    text: 'blog',
-  },
+  // {
+  //   id: 4,
+  //   url: '/blog',
+  //   text: 'blog',
+  // },
   {
     id: 5,
     url: '/kontakt',

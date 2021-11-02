@@ -4,53 +4,28 @@ export const popravke = [
     content: [
       {
         uredjaj: 'iPhone XS/XS Max',
-        cena: '400€',
+        cena: '200€',
       },
       {
         uredjaj: 'iPhone X/XR',
-        cena: '350€',
-      },
-      {
-        uredjaj: 'iPhone 7/7+/8/8+',
         cena: '150€',
       },
       {
+        uredjaj: 'iPhone 7/7+/8/8+',
+        cena: '100€',
+      },
+      {
         uredjaj: 'iPhone 6S/6S+',
-        cena: '120€',
+        cena: '80€',
       },
       {
         uredjaj: 'iPhone 5/5C/5S/SE/6/6+',
-        cena: '100€',
+        cena: '50€',
       },
     ],
   },
   {
     title: 'Ne reaguje / Ne pali se',
-    content: [
-      {
-        uredjaj: 'iPhone XS/XS Max',
-        cena: '300€',
-      },
-      {
-        uredjaj: 'iPhone X/XR',
-        cena: '300€',
-      },
-      {
-        uredjaj: 'iPhone 7/7+/8/8+',
-        cena: '150€',
-      },
-      {
-        uredjaj: 'iPhone 6S/6S+',
-        cena: '120€',
-      },
-      {
-        uredjaj: 'iPhone 5/5C/5S/SE/6/6+',
-        cena: '100€',
-      },
-    ],
-  },
-  {
-    title: 'Ne puni se',
     content: [
       {
         uredjaj: 'iPhone XS/XS Max',
@@ -62,15 +37,40 @@ export const popravke = [
       },
       {
         uredjaj: 'iPhone 7/7+/8/8+',
-        cena: '70€',
+        cena: '100€',
       },
       {
         uredjaj: 'iPhone 6S/6S+',
-        cena: '60€',
+        cena: '80€',
       },
       {
         uredjaj: 'iPhone 5/5C/5S/SE/6/6+',
         cena: '50€',
+      },
+    ],
+  },
+  {
+    title: 'Ne puni se',
+    content: [
+      {
+        uredjaj: 'iPhone XS/XS Max',
+        cena: '100€',
+      },
+      {
+        uredjaj: 'iPhone X/XR',
+        cena: '80€',
+      },
+      {
+        uredjaj: 'iPhone 7/7+/8/8+',
+        cena: '60€',
+      },
+      {
+        uredjaj: 'iPhone 6S/6S+',
+        cena: '40€',
+      },
+      {
+        uredjaj: 'iPhone 5/5C/5S/SE/6/6+',
+        cena: '40€',
       },
     ],
   },
@@ -83,19 +83,19 @@ export const popravke = [
       },
       {
         uredjaj: 'iPhone X/XR',
-        cena: '200€',
-      },
-      {
-        uredjaj: 'iPhone 7/7+/8/8+',
         cena: '150€',
       },
       {
+        uredjaj: 'iPhone 7/7+/8/8+',
+        cena: '100€',
+      },
+      {
         uredjaj: 'iPhone 6S/6S+',
-        cena: '85€',
+        cena: '70€',
       },
       {
         uredjaj: 'iPhone 5/5C/5S/SE/6/6+',
-        cena: '70€',
+        cena: '50€',
       },
     ],
   },

@@ -42,11 +42,13 @@ export default function Kontakt() {
                 Sretena Milića 1, 18360 Svrljig
               </div>
 
-              <Link href='#'>
-                <a className='font-EB text-tiny uppercase tracking-small hover:text-red'>
-                  vidi na mapi
-                </a>
-              </Link>
+              <a
+                href='https://goo.gl/maps/q841rsdYJoXgXA1T6'
+                target='_blank'
+                className='font-EB text-tiny uppercase tracking-small hover:text-red'
+              >
+                vidi na mapi
+              </a>
             </div>
             <div className='ml-20'>
               <div className='font-EM text-3xl'>Niš</div>
@@ -55,35 +57,49 @@ export default function Kontakt() {
               <div className='font-EL text-md mb-4'>
                 Gornjomatejevačka 83b, 18000 Niš
               </div>
-              <Link href='#'>
-                <a className='font-EB text-tiny uppercase tracking-small hover:text-red'>
-                  vidi na mapi
-                </a>
-              </Link>
+
+              <a
+                href='https://goo.gl/maps/3UpVrfVCnE2E2EGz6'
+                target='_blank'
+                className='font-EB text-tiny uppercase tracking-small hover:text-red'
+              >
+                vidi na mapi
+              </a>
             </div>
           </div>
 
           <div className='flex items-center mt-10 mr-5'>
-            <Link href='https://facebook.com/yabooka.rs'>
-              <a target='_blank' className='mr-5'>
-                <Button>Facebook</Button>
-              </a>
-            </Link>
-            <Link href='https://www.instagram.com/yabooka.rs/'>
-              <a target='_blank' className='mr-5'>
-                <Button>Instagram</Button>
-              </a>
-            </Link>
-            <Link href='https://t.me/appleservisnis'>
-              <a target='_blank' className='mr-5'>
-                <Button>Telegram</Button>
-              </a>
-            </Link>
-            <Link href='https://invite.viber.com/?g2=AQALwmIxg%2F3E40v3cgVQiMytDg28mnblb1vmTA5w3mNRcbjpwlEEO9u9YnXSYRhN'>
-              <a target='_blank' className='mr-5'>
-                <Button>Viber</Button>
-              </a>
-            </Link>
+            <a
+              href='https://facebook.com/yabooka.rs'
+              target='_blank'
+              className='mr-5'
+            >
+              <Button>Facebook</Button>
+            </a>
+
+            <a
+              href='https://www.instagram.com/yabooka.rs/'
+              target='_blank'
+              className='mr-5'
+            >
+              <Button>Instagram</Button>
+            </a>
+
+            <a
+              href='https://t.me/appleservisnis'
+              target='_blank'
+              className='mr-5'
+            >
+              <Button>Telegram</Button>
+            </a>
+
+            <a
+              href='https://invite.viber.com/?g2=AQALwmIxg%2F3E40v3cgVQiMytDg28mnblb1vmTA5w3mNRcbjpwlEEO9u9YnXSYRhN'
+              target='_blank'
+              className='mr-5'
+            >
+              <Button>Viber</Button>
+            </a>
           </div>
           <div className='text-md w-full max-w-1/2 text-center mt-10'>
             Za sve informacije i pitanja možete nam se obratiti putem email

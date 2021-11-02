@@ -23,7 +23,7 @@ export default function ServisPloca() {
               mogućnosti da popravimo matičnu ploču svakog uređaja. <br />
               <br />
               Garancija na naše popravke matičnih ploča je{' '}
-              <span className='font-EB'>6 meseci</span>.
+              <span className='font-EB'>60 dana</span>.
             </div>
           </div>
           <Button>

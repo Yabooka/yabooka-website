@@ -22,9 +22,6 @@ export default function VracanjePodataka() {
               da bi podaci mogli da se očitaju iz memorije.
               <br />
               <u>Mi imamo iskustva sa tim.</u>
-              <br />
-              Ukoliko ne uspemo da dođemo do podataka
-              <span className='font-EB'> NE PLAĆATE NIŠTA</span>.
             </div>
           </div>
           <Button>

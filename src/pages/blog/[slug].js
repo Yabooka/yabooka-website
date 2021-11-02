@@ -6,8 +6,8 @@ import CustomLink from '@/components/customlink'
 const Post = ({ code, frontmatter }) => {
   const Component = useMemo(() => getMDXComponent(code), [code])
   return (
-    <div>
-      <h1>{frontmatter.title}</h1>
+    <div className='pt-40'>
+      <h1 className='text-4xl font-EB mb-4'>{frontmatter.title}</h1>
       <Component
         components={{
           a: CustomLink,

@@ -9,12 +9,9 @@ export default function BlogPage({ postovi }) {
       title='Yabooka | Blog'
       description='Saznajte vise o problemima koji se javljaju kod mobilnih telefona.'
     >
-      <ul className='grid gap-10 md:grid-cols-2 md:gap-20'>
+      <ul className='grid gap-10 md:grid-cols-2 md:gap-20 pt-40'>
         {postovi.map((post, index) => (
-          <li
-            key={index}
-            className='shadow-md hover:shadow-2xl border border-grayBorder'
-          >
+          <li key={index} className='shadow-md border border-grayBorder'>
             <img
               src={post.frontmatter.image}
               className='block h-auto w-full mb-5'

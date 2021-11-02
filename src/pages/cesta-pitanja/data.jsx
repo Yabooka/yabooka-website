@@ -32,7 +32,7 @@ export const pitanja = [
     odgovor: (
       <span>
         <b>Zamena delova</b> – poput zamene ekrana, baterije, zvucnika,
-        mikrofona i slicno – <b>1-2 sata</b>
+        mikrofona i slicno – <b>2-5 sata</b>
         <br />
         <br />
         <b>Jednostavne intervencije na ploči</b>– poput zamene konektora i
@@ -49,24 +49,13 @@ export const pitanja = [
     ),
   },
   {
-    pitanje: 'Šta znači NO FIX/NO FEE garancija?',
-    odgovor: (
-      <span>
-        Ukratko, NO FIX/NO FEE garancija znači da nećete platiti ništa ukoliko
-        ne uspemo da rešimo problem koji ste prijavili (osim možda poštarine
-        ukoliko ste poslali uređaj nekim kurirom). Ova garancija se odnosi{' '}
-        <b>SAMO na problem koji ste prijavili</b>.
-      </span>
-    ),
-  },
-  {
     pitanje: 'Šta ako uređaj ne može da se popravi?',
     odgovor: (
       <spn>
         U slučajevima kada popravka nije moguća imate tri opcije:
         <br />
         <br />
-        1. da platite samo poštarinu za slanje uređaja nazad Vama
+        1. da platite naknadu za pokušaj popravke i uzmete uređaj nazad
         <br />
         <br />
         2. da otkupimo Vaš uređaj za delove (ukoliko nam je potreban i ima neku
@@ -81,11 +70,6 @@ export const pitanja = [
     pitanje: 'Šta ako uređaj ima još neki problem koji nije prijavljen?',
     odgovor: (
       <span>
-        <b>
-          Naša NO FIX / NO FEE garancija se odnosi samo na primarni problem.
-        </b>
-        <br />
-        <br />
         Ukoliko se ispostavi da uređaj ima još neki problem za koji niste znali,
         ili niste naveli u prijavi, onda možete:
         <br />
@@ -98,18 +82,15 @@ export const pitanja = [
         slučaju vraćamo Vam uređaj na kome je rešen samo primarni problem)
         <br />
         <br />
-        <b>Sekundarni problemi nisu pokriveni NO FIX / NO FEE garancijom.</b>
-        <br />
-        <br />
         Evo primera za sekundarni problem…
         <br />
         <br />
-        Recimo da ste nam poslali telefon jer se palio sa plavim ekranom
-        (primarni problem). Nakon rešavanja ovog problema ispostavi se da na
-        telefonu ne radi otisak prsta. U ovom slučaju neispravan otisak prsta je
-        sekundarni problem. Za ovaj problem biće Vam ponuđeno da platite i za
-        ovu popravku (pored primarne) ili da Vam vratimo nazad telefon na kome
-        je rešen samo problem sa plavim ekranom. <br />
+        Recimo da ste nam poslali telefon jer nije hteo da se puni (primarni
+        problem). Nakon rešavanja ovog problema ispostavi se da na telefonu ne
+        radi otisak prsta. U ovom slučaju neispravan otisak prsta je sekundarni
+        problem. Za ovaj problem biće Vam ponuđeno da platite i za ovu popravku
+        (pored primarne) ili da Vam vratimo nazad telefon na kome je rešen samo
+        problem sa punjenjem. <br />
         <br />
         <b>Rešenje primarnog problema će svakako biti naplaćeno.</b>
       </span>
@@ -145,12 +126,13 @@ export const pitanja = [
     odgovor: (
       <span>
         Za sve intervencije na matičnim pločama dajemo garanciju od{' '}
-        <b>6 meseci</b>.<br />
+        <b>60 dana</b>.<br />
         <br />
         Garancija na delove poput mikrofona, kamera, flet kablova i slično je{' '}
-        <b>6 meseci</b>.<br />
+        <b>3 do 6 meseci</b> u zavisnosti od samog dela.
         <br />
-        Garancija na baterije i ekrane je <b>3 meseca</b>.
+        <br />
+        Garancija na baterije i ekrane je <b>90 dana</b>.
       </span>
     ),
   },

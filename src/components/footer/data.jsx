@@ -9,14 +9,14 @@ export const linkovi = [
     url: '/uslovi-koriscenja',
     text: 'Uslovi Koriscenja',
   },
-  {
-    id: 3,
-    url: '/vracanje-novca',
-    text: 'Vracanje Novca',
-  },
-  {
-    id: 4,
-    url: '/sitemap',
-    text: 'Site Map',
-  },
+  // {
+  //   id: 3,
+  //   url: '/vracanje-novca',
+  //   text: 'Vracanje Novca',
+  // },
+  // {
+  //   id: 4,
+  //   url: '/sitemap',
+  //   text: 'Site Map',
+  // },
 ]

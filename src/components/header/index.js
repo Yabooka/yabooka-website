@@ -41,7 +41,7 @@ export default function Header() {
                 return (
                   <li key={id} className={styles.menu_item}>
                     <Link href={url}>
-                      <a>{text}</a>
+                      <a onClick={toggleLinks}>{text}</a>
                     </Link>
                   </li>
                 )
