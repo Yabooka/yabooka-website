@@ -1,4 +1,4 @@
-import { easing } from '@/pages/animations'
+import { easing } from '@/data/animations'
 
 export const fadeInUp = {
   initial: { y: 60, opacity: 0 },
