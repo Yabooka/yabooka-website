@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import Page from '@/components/page'
-import { pitanja } from './data'
+import { pitanja } from '@/data/cesta-pitanja/data'
 import styles from './styles.module.css'
 import { CgArrowUpO, CgArrowDownO } from 'react-icons/cg'
 
 import { motion } from 'framer-motion'
-import { fadeInUp, fadeInDown, stagger } from './animations'
-import { exit } from 'pages/animations'
+import { fadeInUp, fadeInDown, stagger } from '@/data/cesta-pitanja/animations'
+import { exit } from '@/data/animations'
 
 export default function Pitanja() {
   const [selected, setSelected] = useState(null)

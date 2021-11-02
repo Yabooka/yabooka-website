@@ -4,10 +4,10 @@ import { motion } from 'framer-motion'
 
 import Button from '@/components/button'
 
-import { fadeInUp, fadeInDown, stagger } from './animations'
-import { popravke, zamena } from './data'
+import { fadeInUp, fadeInDown, stagger } from '@/data/cenovnik/animations'
+import { popravke, zamena } from '@/data/cenovnik/data'
 
-import { exit } from 'pages/animations'
+import { exit } from '@/data/animations'
 
 export default function Cenovnik() {
   return (
