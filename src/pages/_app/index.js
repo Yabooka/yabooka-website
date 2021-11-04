@@ -1,6 +1,6 @@
 import 'tailwindcss/tailwind.css'
 import '@/styles/global.css'
-import Layout from '@/components/Layout'
+import Layout from '@/components/layout'
 import Script from 'next/script'
 
 export default function MyApp({ Component, pageProps }) {
